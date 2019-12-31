@@ -1,6 +1,4 @@
 import requests, time, exrex, os, json
-from bs4 import BeautifulSoup
-from random import choice
 
 def random_nitro():
     regex = exrex.getone('^[A-Za-z0-9]{16}$')
